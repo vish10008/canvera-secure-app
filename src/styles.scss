@@ -1,0 +1,24 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+@import "assets/styles/main.scss";
+
+.content-div  {
+	margin-top: 50px;
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+.canvera-signin .container .tab-box .tab-box-right .slick-dots {
+	bottom: 0;
+	padding-bottom: 0;
+	li {
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+	}
+	li.slick-active {
+		width: 12px;
+		height: 12px;
+	}
+}
